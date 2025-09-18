@@ -1,0 +1,52 @@
+body{
+    background: rgb(101, 215, 243);
+}
+
+#aku{
+    font-family: 'Times New Roman';/*set jenis font*/
+    font-size: 28px;
+    color: white;
+    display: block;
+    background: blue;
+    padding: 20px; /*jarak text ke kotak*/
+    text-align: center;
+}
+
+.data{
+    text-align: center;
+    color: blue;
+    font-size: 16px;
+}
+
+.data input, 
+.data select, 
+.data textarea {
+  border: 2px solid blue;
+}
+
+.data input[type="submit"] {
+  background: blue;
+  color: white;
+}
+
+.kotak{
+    color: white;
+    background: blue;
+    padding: 5px; /*jarak text ke kotak*/
+    margin : 5px auto;/*jarak/daerah sekitar*/
+}
+
+hr {
+    border: none;           
+    height: 15px;              
+    background-color: blue;  
+    width: 100%;              
+    margin:50px 0px;  
+    display: block;      
+}
+
+.foto{
+    display: block;
+    margin-left:auto;
+    margin-right: 0;
+}
